@@ -17,7 +17,8 @@ source_group(test FILES ${TEST})
 
 target_link_libraries(test-playground
   PRIVATE
-    gtest
+    GTest::GTest
+    GTest::Main
     continuable
     continuable-features-flags
     continuable-features-warnings

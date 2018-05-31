@@ -57,6 +57,8 @@ include(cmake/CMakeLists.txt)
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
+find_package(GTest REQUIRED)
+find_package(function2 REQUIRED)
 
 add_subdirectory(dep)
 

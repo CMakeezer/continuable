@@ -8,7 +8,8 @@ target_include_directories(test-continuable-base
 
 target_link_libraries(test-continuable-base
   PUBLIC
-    gtest-main
+    GTest::GTest
+    GTest::Main
     continuable
     continuable-features-flags
     continuable-features-warnings
