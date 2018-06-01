@@ -114,7 +114,7 @@ add_library(continuable::continuable ALIAS continuable)
 target_link_libraries(continuable
   INTERFACE
     continuable-base
-    function2)
+    function2::function2)
 
 # Create an install target
 install(TARGETS continuable-base continuable
