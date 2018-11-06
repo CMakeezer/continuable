@@ -7,7 +7,7 @@ target_include_directories(example-asio
 
 target_link_libraries(example-asio
   PRIVATE
-    asio
+    asio::asio
     continuable)
 
 target_compile_definitions(example-asio
